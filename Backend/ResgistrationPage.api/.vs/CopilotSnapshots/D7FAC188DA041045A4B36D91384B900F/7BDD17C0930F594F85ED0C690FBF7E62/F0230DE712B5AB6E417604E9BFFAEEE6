@@ -1,0 +1,6 @@
+﻿namespace ResgistrationPage.api.Controllers
+{
+    public class RegistrationController
+    {
+    }
+}

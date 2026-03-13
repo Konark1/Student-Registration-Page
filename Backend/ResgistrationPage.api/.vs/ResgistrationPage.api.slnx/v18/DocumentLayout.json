@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|d:\\new folder\\hclsubmission\\backend\\resgistrationpage.api\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|d:\\new folder\\hclsubmission\\backend\\resgistrationpage.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|d:\\new folder\\hclsubmission\\backend\\resgistrationpage.api\\model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|solutionrelative:model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|d:\\new folder\\hclsubmission\\backend\\resgistrationpage.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|d:\\new folder\\hclsubmission\\backend\\resgistrationpage.api\\model\\registrationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|solutionrelative:model\\registrationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|d:\\new folder\\hclsubmission\\backend\\resgistrationpage.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B23B675-2D05-B6A2-F35D-915CA656753B}|ResgistrationPage.api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-13T10:51:15.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T10:20:48.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Model\\Registration.cs",
+              "RelativeDocumentMoniker": "Model\\Registration.cs",
+              "ToolTip": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Model\\Registration.cs",
+              "RelativeToolTip": "Model\\Registration.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T10:07:31.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T10:02:18.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationDbContext.cs",
+              "DocumentMoniker": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Model\\RegistrationDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\RegistrationDbContext.cs",
+              "ToolTip": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\Model\\RegistrationDbContext.cs",
+              "RelativeToolTip": "Model\\RegistrationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T10:00:32.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\New folder\\HclSubmission\\Backend\\ResgistrationPage.api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-13T09:47:20.399Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

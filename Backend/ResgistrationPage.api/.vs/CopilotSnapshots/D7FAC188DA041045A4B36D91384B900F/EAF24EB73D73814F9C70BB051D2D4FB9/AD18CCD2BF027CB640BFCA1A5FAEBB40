@@ -1,0 +1,61 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using ResgistrationPage.api.Model;
+
+namespace ResgistrationPage.api.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class RegistrationController : ControllerBase
+    {
+        private readonly RegistrationDbContext _context;
+
+        public RegistrationController(RegistrationDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult GetRegistrations()
+        {
+            var registrations = _context.Registrations.ToList();
+            return Ok(registrations);
+        }
+
+        [HttpPost]
+        public IActionResult SaveRegistration(Registration registration)
+        {
+            _context.Registrations.Add(registration);
+            _context.SaveChanges();
+            return Ok(registration);
+        }
+
+        [HttpPut]
+        public IActionResult UpdateRegistration(Registration registration)
+        {
+            var record = _context.Registrations.Find(registration.studentId);
+            if (record == null)
+            {
+                var notFoundResponse = new
+                {
+                    Status = "Error",
+                    Message = "Registration record not found."
+                };
+                return NotFound(notFoundResponse);
+            }
+            else
+            {
+                record.studName = registration.studName;
+                record.email = registration.email;
+                record.city = registration.city;
+                record.mobileNo = registration.mobileNo;
+                record.state = registration.state;
+                record.addressLine1 = registration.addressLine1;
+                record.addressLine2 = registration.addressLine2;
+                record.pincode = registration.pincode;
+
+                _context.SaveChanges();
+                return Ok(record);
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using ResgistrationPage.api.Model;
+
+namespace ResgistrationPage.api.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class RegistrationController : ControllerBase
+    {
+        private readonly RegistrationDbContext _context;
+
+        public RegistrationController(RegistrationDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult GetRegistrations()
+        {
+            var registrations = _context.Registrations.ToList();
+            return Ok(registrations);
+        }
+    }
+}
